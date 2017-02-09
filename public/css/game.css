@@ -1,0 +1,59 @@
+#cardTable {
+    background: green;
+    width: 1280px;
+    height: 560px;
+    padding-top: 30px;
+}
+#topCards {
+    height: 150px;
+}
+
+#draw {
+    margin-left: 30px;
+    float: left;
+    height: 50px;
+}
+
+#discard {
+    float: left;
+    margin-left: 130px;
+}
+
+.card-style {
+    height: 150px;
+    width: 90px;
+    border-radius: 7px 7px 7px 7px;
+    border: 2px #aaaaaa solid;
+}
+
+#stack {
+    float: right;
+    margin-right: 30px;
+}
+
+#stack > div {
+    float: right;
+    margin-left: 20px;
+}
+
+#pile {
+    margin: 30px 0 0 30px;
+}
+
+#pile > div {
+    float: right;
+    margin-right: 88px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img.selectedIMG{
+    border: 3px solid blue !important;
+}
